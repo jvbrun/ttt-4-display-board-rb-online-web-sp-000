@@ -3,7 +3,7 @@
 
 choice = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
 
-def display_board(choice[])
+def display_board(choice)
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
