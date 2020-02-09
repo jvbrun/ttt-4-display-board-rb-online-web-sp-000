@@ -11,4 +11,4 @@ def display_board
     puts "  #{board[6]} | #{board[7]}  | #{board[8]}  "
 end
 
-puts display_board(board)
+display_board(board)
