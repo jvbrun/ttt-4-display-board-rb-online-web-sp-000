@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current stat
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board0 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 board1 = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 board2 = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 board3 = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
@@ -13,11 +13,11 @@ board8 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 board9 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(input)
-    puts " #{input[0]} |  #{input[1]} | #{input[2]} "
+    puts " #{input[0]} | #{input[1]} | #{input[2]} "
     puts "-----------"
-    puts " #{input[3]} |  #{input[4]} | #{input[5]} "
+    puts " #{input[3]} | #{input[4]} | #{input[5]} "
     puts "-----------"
-    puts " #{input[6]} | #{input[7]}  | #{input[8]} "
+    puts " #{input[6]} | #{input[7]} | #{input[8]} "
 end
 
 display_board(board)
