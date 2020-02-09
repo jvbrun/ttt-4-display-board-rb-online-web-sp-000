@@ -11,10 +11,4 @@ def display_board(board)
     puts "   |   |   "
 end
 
-def display_board(board[4], 'X')
-    puts "   |   |   "
-    puts "-----------"
-    puts "   | X |   "
-    puts "-----------"
-    puts "   |   |   "
-end
+display_board(board[4], 'X')
