@@ -11,21 +11,21 @@ def display_board(board)
     puts "-----------"
     puts "   |   |   "
 
-  elsif board = board[4]
+  elsif board[4] = X
     puts "   |   |   "
     puts "-----------"
     puts "   | X |   "
     puts "-----------"
     puts "   |   |   "
 
-  elsif board = board[0]
+  elsif board[0] = O
     puts " O |   |   "
     puts "-----------"
     puts "   |   |   "
     puts "-----------"
     puts "   |   |   "
     
-   elsif board = board[0] && board[4]
+   elsif board[0] = O && board[4] = X
     puts " O |   |   "
     puts "-----------"
     puts "   | X |   "
