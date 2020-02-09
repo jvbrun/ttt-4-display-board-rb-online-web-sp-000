@@ -1,6 +1,8 @@
 # Define display_board that accepts a board and prints
 # out the current stat
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def display_board
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "   |   |   "
@@ -11,17 +13,17 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
 
 def display_board
-board = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
   puts "   |   |   "
   puts "-----------"
-  puts "   | x |   "
+  puts "   | X |   "
   puts "-----------"
   puts "   |   |   "
 end
 
 def display_board
-board = ["o", " ", " ", " ", " ", " ", " ", " ", " "]
-  puts " o |   |   "
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+  puts " O |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
