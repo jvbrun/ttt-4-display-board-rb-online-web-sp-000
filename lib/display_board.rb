@@ -20,6 +20,6 @@ def display_board(input)
     puts " #{input[6]} | #{input[7]} | #{input[8]} "
 end
 
-display_board(board)
+display_board(board0)
 display_board(board1)
 display_board(board2)
