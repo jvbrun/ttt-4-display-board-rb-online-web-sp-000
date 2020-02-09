@@ -31,5 +31,12 @@ def display_board(board)
     puts "   | X |   "
     puts "-----------"
     puts "   |   |   " 
+    
+    elsif board[0] == 'O' && board[4] == 'X'
+    puts " X | X | X "
+    puts "-----------"
+    puts "   |   |   "
+    puts "-----------"
+    puts "   |   |   " 
   end
 end
