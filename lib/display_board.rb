@@ -11,4 +11,5 @@ def display_board(board)
     puts "   |   |   "
 end
 
+display_board
 display_board(board[4], 'X')
