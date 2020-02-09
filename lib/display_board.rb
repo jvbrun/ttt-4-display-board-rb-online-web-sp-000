@@ -21,5 +21,3 @@ def display_board(input)
 end
 
 display_board(board0)
-display_board(board1)
-display_board(board2)
