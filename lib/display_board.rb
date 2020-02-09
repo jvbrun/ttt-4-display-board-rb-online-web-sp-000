@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current stat
 
-board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 
 def display_board(board)
   
