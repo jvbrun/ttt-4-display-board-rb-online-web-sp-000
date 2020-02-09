@@ -3,26 +3,23 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def display_board
-board = board[]
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-end
+def display_board(board)
 
-def display_board
-board = board[4]
+if board = " "
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+
+elsif board = 4
   puts "   |   |   "
   puts "-----------"
   puts "   | X |   "
   puts "-----------"
   puts "   |   |   "
-end
 
-def display_board
-board = board[0]
+elsif board = board[0]
   puts " O |   |   "
   puts "-----------"
   puts "   |   |   "
