@@ -12,4 +12,11 @@ def display_board(board)
     puts "   |   |   "
 end
 
-display_board
+display_board(board)
+display_board(board)
+  board = board[4]
+    puts "   |   |   "
+    puts "-----------"
+    puts "   |   |   "
+    puts "-----------""
+    puts "   |   |   "
