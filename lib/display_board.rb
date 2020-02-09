@@ -11,7 +11,7 @@ def display_board(choice)
   puts "   |   |   "
 end
 
-def display_board(choice)
+def display_board(choice = choice[4])
   puts "   |   |   "
   puts "-----------"
   puts "   | x |   "
