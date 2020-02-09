@@ -24,5 +24,12 @@ def display_board(board)
     puts "   |   |   "
     puts "-----------"
     puts "   |   |   "
+    
+   elsif board = board[0] && board[4]
+    puts " O |   |   "
+    puts "-----------"
+    puts "   | X |   "
+    puts "-----------"
+    puts "   |   |   " 
   end
 end
