@@ -4,7 +4,7 @@
 choice = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(choice)
-  puts "   |   |   "
+  row "   |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
