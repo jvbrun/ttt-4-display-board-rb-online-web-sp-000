@@ -32,11 +32,18 @@ def display_board(board)
     puts "-----------"
     puts "   |   |   " 
     
-    elsif board[0] == 'O' && board[4] == 'X'
+    elsif board[0] == 'X' && board[1] == 'X' && board[2] == 'X'
     puts " X | X | X "
     puts "-----------"
     puts "   |   |   "
     puts "-----------"
     puts "   |   |   " 
+    
+    elsif board[6] == 'O' && board[7] == 'O' && board[8] == 'O'
+    puts "   |   |   "
+    puts "-----------"
+    puts "   |   |   "
+    puts "-----------"
+    puts " O | O | O "
   end
 end
