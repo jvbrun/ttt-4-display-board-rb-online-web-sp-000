@@ -3,7 +3,9 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def display_board(board)
+def display_board(board, value)
+  board = board[]
+  value = board(" ")
     puts "   |   |   "
     puts "-----------"
     puts "   |   |   "
