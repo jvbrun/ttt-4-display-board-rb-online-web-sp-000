@@ -7,5 +7,6 @@ def display_board(choice)
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
+  puts "-----------"
   puts "   |   |   "
 end
