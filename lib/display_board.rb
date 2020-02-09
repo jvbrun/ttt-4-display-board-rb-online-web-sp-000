@@ -4,9 +4,15 @@
 choice = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
 
 def display_board(choice)
-  puts "   | #{choice[4]}  |   "
-  puts "-----------"
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  
+  row0 = [" ", " ", " "]
+  row1 = []
+  row2 = []
+  row3 = []
+  row4 = []
 end
