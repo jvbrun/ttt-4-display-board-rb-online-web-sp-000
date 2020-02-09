@@ -4,25 +4,25 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board)
+  if board = " "
+    puts "   |   |   "
+    puts "-----------"
+    puts "   |   |   "
+    puts "-----------"
+    puts "   |   |   "
 
-if board = " "
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
+  elsif board = 4
+    puts "   |   |   "
+    puts "-----------"
+    puts "   | X |   "
+    puts "-----------"
+    puts "   |   |   "
 
-elsif board = 4
-  puts "   |   |   "
-  puts "-----------"
-  puts "   | X |   "
-  puts "-----------"
-  puts "   |   |   "
-
-elsif board = board[0]
-  puts " O |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
+  elsif board = board[0]
+    puts " O |   |   "
+    puts "-----------"
+    puts "   |   |   "
+    puts "-----------"
+    puts "   |   |   "
+  end
 end
