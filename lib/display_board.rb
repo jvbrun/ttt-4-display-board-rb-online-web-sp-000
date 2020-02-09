@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current stat
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 
 def display_board(board, put = " ")
     puts " #{board[0]}  |  #{board[1]} | #{board[2]}  "
@@ -16,4 +16,4 @@ def put
   put_O = "O"
 end
 
-display_board()
+display_board
