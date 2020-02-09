@@ -11,7 +11,7 @@ def display_board(board)
     puts "-----------"
     puts "   |   |   "
 
-  elsif board = 4
+  elsif board = board[4]
     puts "   |   |   "
     puts "-----------"
     puts "   | X |   "
