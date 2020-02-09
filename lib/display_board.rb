@@ -11,6 +11,7 @@ board6 = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 board7 = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
 board8 = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
 board9 = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+board10 = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 
 def display_board(input)
     puts " #{input[0]} | #{input[1]} | #{input[2]} "
