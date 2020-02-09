@@ -2,6 +2,7 @@
 # out the current stat
 
 choice = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def display_board(choice)
   puts "   |   |   "
   puts "-----------"
