@@ -3,7 +3,7 @@
 
 choice = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
 
-def display_board(choice)
+def display_board
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
@@ -11,10 +11,18 @@ def display_board(choice)
   puts "   |   |   "
 end
 
-def display_board(choice = choice[4])
+def display_board
   puts "   |   |   "
   puts "-----------"
   puts "   | x |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+
+def display_board
+  puts " o |   |   "
+  puts "-----------"
+  puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
 end
