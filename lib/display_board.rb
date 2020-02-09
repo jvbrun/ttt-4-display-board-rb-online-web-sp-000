@@ -2,7 +2,7 @@
 # out the current stat
 
 def display_board
-choice = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
@@ -11,7 +11,7 @@ choice = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
 
 def display_board
-choice = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
   puts "   |   |   "
   puts "-----------"
   puts "   | x |   "
@@ -20,7 +20,7 @@ choice = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
 end
 
 def display_board
-choice = ["o", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["o", " ", " ", " ", " ", " ", " ", " ", " "]
   puts " o |   |   "
   puts "-----------"
   puts "   |   |   "
